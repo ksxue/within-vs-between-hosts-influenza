@@ -24,6 +24,7 @@ The directory is organized as follows:
 	|  |- InferGlobalVariants				# Calculate the proportion of NS variants in the global influenza population.
 	|  |- figures-WvB					# Generate the figures for the accompanying manuscript.
 	|- data				# Small data files, primarily associated with data organization.
+	|  |- GISAID		# Acknowledgement files for GISAID sequences.
 	|  |- metadata					# Contains metadata and organizational tracking information for each study.
 	|- pipelines		# Standardized computational pipelines for alignment and analysis of sequencing data.
 	|- reference		# Reference genomes for H3N2 influenza.
