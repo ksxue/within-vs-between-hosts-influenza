@@ -1,0 +1,9 @@
+# Data is taken from Table 1 of Dinis et al. 2016.
+# https://jvi.asm.org/content/90/7/3355/figures-only
+Season,Subtype,DPI,NumSamples
+"2012-2013","H3N2","<3",34
+"2012-2013","H3N2","3-4", 22
+"2012-2013","H3N2","5-7", 12
+"2013-2014","pdmH1N1","<3", 29
+"2013-2014","pdmH1N1","3-4", 8
+"2013-2014","pdmH1N1","5-7", 9

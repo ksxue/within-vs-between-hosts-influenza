@@ -1,0 +1,66 @@
+Ignore everything except things listed explicitly below
+*
+!/**/
+
+# Don't ignore files with some standard programming language extensions.
+!*.sh
+!*.R
+!*.r
+!*.Rmd
+!*.py
+!*.c
+!*.cpp
+!*.ipynb
+!*.project
+!*.cproject
+!*.prefs
+
+# Don't ignore files with some specific extensions indicating small data files.
+!*.test
+!*.data
+!*.samples
+!*.data.gz
+
+# Don't ignore Markdown, reStructuredText, or Latex, or the HTML output of these files.
+!*.rst
+!*.md
+!*.markdown
+!*.tex
+!*.bib
+!**/*_files/**
+
+# Don't ignore FASTA files, which may correspond to sequence references.
+!*.fasta
+!*.fa
+!*.bed
+
+# Don't ignore PDB files.
+!*.pdb
+
+# Don't ignore .png or .pdf files.
+!*.png
+!*.pdf
+!*.ai
+
+# Don't ignore tree files.
+!*.newick
+!*.nexus
+
+# Don't ignore files in the "data" directory, which are small, simplified data files.
+!**/data/**
+
+# Ignore any files beginning with .
+.*
+
+# Ignore the nobackup directory, which consists of large intermediate files.
+nobackup/*
+
+# Ignore the raw directory, which consists of large raw sequencing file.
+raw/*
+
+# Ignore FASTA files downloaded from GISAID.
+data/GISAID/**/*.fasta
+
+# Don't ignore any .gitignore files
+!.gitignore
+*.Rhistory
